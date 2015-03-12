@@ -11,7 +11,7 @@ Button button = Button(BUTTON_PIN, BUTTON_PULLUP_INTERNAL, true, 100);
 // when an effect should start
 int onTimeouts[NUM_EFFECTS] = {0, 60, 120, 180, 0};
 // how long an effect is on for
-int onLength[NUM_EFFECTS] = {10, 60, 60, 60, 200};
+int onLength[NUM_EFFECTS] = {60, 60, 60, 60, 200};
 int offTimeouts[NUM_EFFECTS];
 
 void setup() {
