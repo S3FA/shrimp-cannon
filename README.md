@@ -4,3 +4,6 @@
 
 This repo will hold the assets that describe how to build our simple CO2 cannon, our flour and bread crumb lanchers (with SVG files to laser cut the funnels), the egg pour and the roasting section.
 
+The arduino code depends on:
+* Button: https://github.com/virgildisgr4ce/Button
+* TLC5940: http://code.google.com/p/tlc5940arduino/
