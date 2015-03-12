@@ -4,6 +4,7 @@
 #define TLC_ON 4095
 #define TLC_OFF 0
 #define GAP_TIME 60
+
 Button button = Button(14, BUTTON_PULLUP_INTERNAL, true, 1000);
 boolean fired;
 
@@ -15,7 +16,6 @@ void setup() {
 }
 
 void loop() {
-  
   if(button.isPressed() && !fired) {
     fired = true;
     for(int i = 0; i < 5; i++) {
@@ -32,13 +32,13 @@ void loop() {
 }
 
 void fireAndWait(int channel, int delayMs) {
-    Tlc.set(channel,TLC_ON);
-    Tlc.update();
-    delay(delayMs);  
+  Tlc.set(channel,TLC_ON);
+  Tlc.update();
+  delay(delayMs);  
 }
 
 void fireOFF(int delayMs) {
-    delay(delayMs);
-    Tlc.clear();
-    Tlc.update();
+  delay(delayMs);
+  Tlc.clear();
+  Tlc.update();
 }
