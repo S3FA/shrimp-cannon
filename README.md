@@ -5,7 +5,7 @@
 This repo will hold the assets that describe how to build our simple CO2 cannon, our flour and bread crumb lanchers (with SVG files to laser cut the funnels), the egg pour and the roasting section.
 
 
-![control box](https://raw.github.com/S3FA/shrimp-cannon/master/control-bax.jpg)
+![control box](https://raw.githubusercontent.com/S3FA/shrimp-cannon/master/control-box.jpg)
 
 The effects are controlled by a [wifire16](http://propaneandelectrons.com/projects/wifire16) running the code in the `shrimpcannon` folder.
 
