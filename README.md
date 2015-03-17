@@ -1,10 +1,10 @@
 # Shrimp Cannon
 
-[S3FA](http://site3firearts.ca/) build a setup to similar to [this video](https://www.youtube.com/watch?v=lkaIoH6Um60).
+[S3FA](http://site3firearts.ca/) built this:
 
 ![control box](https://raw.githubusercontent.com/S3FA/shrimp-cannon/master/setup.jpg)
 
-This repo will hold the assets that describe how to build our simple CO2 cannon, our flour and bread crumb lanchers (with SVG files to laser cut the funnels), the egg pour and the roasting section.
+(Yep it is totally based on [this video](https://www.youtube.com/watch?v=lkaIoH6Um60))
 
 ## Control box
 
@@ -15,3 +15,7 @@ The effects are controlled by a [wifire16](http://propaneandelectrons.com/projec
 The control box code depends on:
 * Button: https://github.com/virgildisgr4ce/Button
 * TLC5940: http://code.google.com/p/tlc5940arduino/
+
+## Funnel
+
+The funnels for flour and bread crumbs where made of laser cut acrylic and powered by compressed air. More details (including DXF files) in the `funnels` folder.
